@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>قنوات بين سبورت - بث تجريبي</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #1e1e2f;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px;
+      background-color: #111;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #00f2ff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .channel {
+      margin-bottom: 40px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    .channel-header {
+      padding: 15px 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: white;
+    }
+
+    .player {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+
+    /* ألوان مختلفة لكل قناة */
+    .bein1 .channel-header { background-color: #e91e63; } /* وردي */
+    .bein2 .channel-header { background-color: #3f51b5; } /* أزرق */
+    .bein3 .channel-header { background-color: #009688; } /* أخضر */
+    .bein5 .channel-header { background-color: #ff5722; } /* برتقالي */
+
+    @media (max-width: 768px) {
+      .player {
+        height: 300px;
+      }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>قنوات بين سبورت - بث تجريبي عبر YouTube</h1>
+</header>
+
+<div class="container">
+
+  <!-- Bein Sport 1 -->
+  <div class="channel bein1">
+    <div class="channel-header">بين سبورت 1</div>
+    <iframe class="player" src="https://www.youtube.com/embed/21X5lGlDOfg" allowfullscreen></iframe>
+  </div>
+
+  <!-- Bein Sport 2 -->
+  <div class="channel bein2">
+    <div class="channel-header">بين سبورت 2</div>
+    <iframe class="player" src="https://www.youtube.com/embed/5qap5aO4i9A" allowfullscreen></iframe>
+  </div>
+
+  <!-- Bein Sport 3 -->
+  <div class="channel bein3">
+    <div class="channel-header">بين سبورت 3</div>
+    <iframe class="player" src="https://www.youtube.com/embed/Dy7VwxRJulA" allowfullscreen></iframe>
+  </div>
+
+  <!-- Bein Sport 5 -->
+  <div class="channel bein5">
+    <div class="channel-header">بين سبورت 5</div>
+    <iframe class="player" src="https://www.youtube.com/embed/XBPjVzSoepo" allowfullscreen></iframe>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 موقع بث قنوات بين سبورت - بث تجريبي YouTube
+</footer>
+
+</body>
+</html>
